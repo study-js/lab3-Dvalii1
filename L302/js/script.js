@@ -1,0 +1,1 @@
+var sheyvana = prompt("შეიყვანეთ სტრიქონი: ");
