@@ -1,7 +1,7 @@
 var sheyvana= prompt("შეიყვანე რიცხვი");
-var arasworia = sheyvana.indexOf("რეკლამა") == -1 && sheyvana.indexOf("მარკეტინგი") == -1 && sheyvana.indexOf("ვირუსი") == -1;
+var sworia = sheyvana.indexOf("რეკლამა") == -1 && sheyvana.indexOf("მარკეტინგი") == -1 && sheyvana.indexOf("ვირუსი") == -1;
 
-if(arasworia){
+if(sworia){
     alert ("სწორია");
 
 
