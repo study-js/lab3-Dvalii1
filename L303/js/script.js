@@ -1,14 +1,12 @@
-var sheyvana = prompt("შეიყვანეთ ფასი: ");
-var lari = sheyvana.indexOf("l") == -1;
-var dolari = sheyvana.indexOf("$") == -1;
+var fasi = prompt("შეიყვანეთ ფასი: ");
+
+var dolari = fasi.includes("$");
+var lari = fasi.includes("L");
 
 
-if (sheyvana == lari) {
-    alert(sheyvana * 2.6);
+if (dolari) {
+    document.write(parseInt(fasi.substr(1)) * 2.6);
 }
-else if (dolari) {
-    alert(sheyvana / 2.6);
-}
-else {
-    alert("არასწორია!");
+else if (lari) {
+    document.write(parseInt(fasi.substr(1)) / 2.6);
 }
